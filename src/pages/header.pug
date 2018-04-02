@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', type='text/css', href='styles/animate.css')
+    link(rel='stylesheet', type='text/css', href='styles/style.css')
+    link(rel="icon", type="image/x-icon", href="img/car-icon.ico")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous")
+  body
+    .section.header.animated.fadeInDown
+      .container.header.grid.space-between.padding_small_hor.align-center
+        .logo.grid.align-center
+          .logo-img
+          dev.logo-text Auto
+        .header-content.grid
+          .header__item.grid
+            .header__item__icon(style='font-family: fontello') &#xf031;
+            .header__item__text 
+              | 9228 Jacobson Trafficway Apt. 666  
+              br
+              |                 California. USA
+          .header__item.grid
+            .header__item__icon(style='font-family: fontello') &#xe800;
+            .header__item__text
+              | Mon - Sat 8:00.AM - 21:00.PM 
+              br
+              |                 Sunday CLOSED
+          .header__item.grid
+            .header__item__icon(style='font-family: fontello') &#xe802;
+            .header__item__text
+              | Sale: (+84) 7564 6554
+              br
+              |                 Service: (+84) 888 754 554
+    .section.header-nav.align-center.animated.fadeInUp
+      .container.header-nav.grid.space-between.padding_small_hor.align-center
+        .menu-button(style='display:none')
+        .header-nav__item
+          a.header-nav__item(href='index.html') HOME
+        .header-nav__item
+          a.header-nav__item(href='inventory.html') INVENTORY
+        .header-nav__item
+          a.header-nav__item(href='service.html') SERVICES
+        .header-nav__item
+          a.header-nav__item(href='pagGallery.html') GALLERY
+        .header-nav__item
+          a.header-nav__item(href='blog.html') BLOG
+        .header-nav__item
+          a.header-nav__item(href='#') SHOP
+        .header-nav__item
+          a.header-nav__item(href='contact.html') CONTACT
+        .header-nav__compare
+          | COMPARE 
+          span.compare-icon(style='font-family: fontello') &#xe805;
+        #offerLink.header-nav__cart
+          | CART 
+          span.cart-icon(style='font-family: fontello')  &#xf290;
+        .header-nav__search(style='font-family: fontello') &#xe806;
+script(src='js/main.js')
+script(src='js/offer.js')
+    

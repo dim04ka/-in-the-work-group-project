@@ -1,0 +1,256 @@
+.section
+  .container.small
+    .row.align-items-start
+      .col-12.col-md-3
+        .search-box.serch#search-box
+          .title#title Search inventory
+          form.forms(action='#', method='post')
+            .disc Condition
+            select
+              option new
+            .disc Body
+            select
+              option Compact
+            .disc Make
+            select#Make
+              option BMW
+            .disc Model
+            select#Model
+              option x6
+            .disc Max Mileage
+            select
+              option new
+            .disc Year 
+            select
+              option 2016
+            .disc Transmission
+            select
+              option Automatic
+            .disc Color
+            select
+              option All color
+            button(type='submit', onclick='funPoisk') SEARCH
+            button(type='reset')
+              i.fa.fa-refresh(aria-hidden='true')
+              |   Reset all
+            p
+        .salecar
+          img(src='img/kia.jpg', width='270px', height='334px')
+      .col-md-9.content
+        .row.sort
+          .col.sort__element
+            | SORT BY
+            select
+              option Date: Newest first
+          .icons
+            a#Line(href='#')
+              i.fa.fa-th-list
+            a#Block(href='#')
+              i.fa.fa-th
+        .row.filtes
+          .filter
+            | Pricice
+            span $2000 - $65.765
+            a(href='#')
+              img(src='img/X.png')
+        .row.block-car.justify-content-center
+          .col-10.col-sm-6.col-xl-4.car
+            .photo-car
+              img(src='img/kia.jpg', alt="car")
+              .price $45.000
+            .model 
+              .make BMW
+              .model-car 535I
+              .one-prire NAVI
+              .two-price LEATHER
+              .thre-price ABS
+            .add
+              | 45/65 
+              i.fa.fa-tachometer(aria-hidden='true')
+              |  Automatic  
+              i.fa.fa-car(aria-hidden='true')
+          .col-10.col-sm-6.col-xl-4.car
+            .photo-car
+              img(src='img/kia.jpg', alt="car")
+              .price $25.000
+            .model 
+              .make OPEL
+              .model-car ASTRA
+              .one-prire NAVI
+              .two-price LEATHER
+              .thre-price ABS
+            .add
+              | 45/65 
+              i.fa.fa-tachometer(aria-hidden='true')
+              |  Automatic  
+              i.fa.fa-car(aria-hidden='true')
+          .col-10.col-sm-6.col-xl-4.car
+            .photo-car
+              img(src='img/kia.jpg', alt="car")
+              .price $95.000
+            .model 
+              .make BMW 
+              .model-car X6
+              .one-prire NAVI
+              .two-price LEATHER
+              .thre-price ABS
+            .add
+              | 45/65 
+              i.fa.fa-tachometer(aria-hidden='true')
+              |  Automatic  
+              i.fa.fa-car(aria-hidden='true')
+          .col-10.col-sm-6.col-xl-4.car
+            .photo-car
+              img(src='img/kia.jpg', alt="car")
+              .price $5.000
+            .model 
+              .make AUDI 
+              .model-car 100
+              .one-prire NAVI
+              .two-price LEATHER
+              .thre-price ABS
+            .add
+              | 45/65 
+              i.fa.fa-tachometer(aria-hidden='true')
+              |  Automatic  
+              i.fa.fa-car(aria-hidden='true')
+          .col-10.col-sm-6.col-xl-4.car
+            .photo-car
+              img(src='img/kia.jpg', alt="car")
+              .price $1.000
+            .model 
+              .make BMW 
+              .model-car X4
+              .one-prire NAVI
+              .two-price LEATHER
+              .thre-price ABS
+            .add
+              | 45/65 
+              i.fa.fa-tachometer(aria-hidden='true')
+              |  Automatic  
+              i.fa.fa-car(aria-hidden='true')
+          .col-10.col-sm-6.col-xl-4.car
+            .photo-car
+              img(src='img/kia.jpg', alt="car")
+              .price $115.000
+            .model 
+              .make KIA 
+              .model-car IMME
+              .one-prire NAVI
+              .two-price LEATHER
+              .thre-price ABS
+            .add
+              | 45/65 
+              i.fa.fa-tachometer(aria-hidden='true')
+              |  Automatic  
+              i.fa.fa-car(aria-hidden='true')
+          .col-10.col-sm-6.col-xl-4.car
+            .photo-car
+              img(src='img/kia.jpg', alt="car")
+              .price $45.000
+            .model 
+              .make BMW
+              .model-car 535I
+              .one-prire NAVI
+              .two-price LEATHER
+              .thre-price ABS
+            .add
+              | 45/65 
+              i.fa.fa-tachometer(aria-hidden='true')
+              |  Automatic  
+              i.fa.fa-car(aria-hidden='true')
+          .col-10.col-sm-6.col-xl-4.car
+            .photo-car
+              img(src='img/kia.jpg', alt="car")
+              .price $25.000
+            .model 
+              .make OPEL
+              .model-car ASTRA
+              .one-prire NAVI
+              .two-price LEATHER
+              .thre-price ABS
+            .add
+              | 45/65 
+              i.fa.fa-tachometer(aria-hidden='true')
+              |  Automatic  
+              i.fa.fa-car(aria-hidden='true')
+          .col-10.col-sm-6.col-xl-4.car
+            .photo-car
+              img(src='img/kia.jpg', alt="car")
+              .price $95.000
+            .model 
+              .make BMW 
+              .model-car X6
+              .one-prire NAVI
+              .two-price LEATHER
+              .thre-price ABS
+            .add
+              | 45/65 
+              i.fa.fa-tachometer(aria-hidden='true')
+              |  Automatic  
+              i.fa.fa-car(aria-hidden='true')
+          .col-10.col-sm-6.col-xl-4.car
+            .photo-car
+              img(src='img/kia.jpg', alt="car")
+              .price $5.000
+            .model 
+              .make AUDI 
+              .model-car 100
+              .one-prire NAVI
+              .two-price LEATHER
+              .thre-price ABS
+            .add
+              | 45/65 
+              i.fa.fa-tachometer(aria-hidden='true')
+              |  Automatic  
+              i.fa.fa-car(aria-hidden='true')
+          .col-10.col-sm-6.col-xl-4.car
+            .photo-car
+              img(src='img/kia.jpg', alt="car")
+              .price $1.000
+            .model 
+              .make BMW 
+              .model-car X4
+              .one-prire NAVI
+              .two-price LEATHER 
+              .thre-price ABS
+            .add
+              | 45/65 
+              i.fa.fa-tachometer(aria-hidden='true')
+              |  Automatic  
+              i.fa.fa-car(aria-hidden='true')
+          .col-10.col-sm-6.col-xl-4.car
+            .photo-car
+              img(src='img/kia.jpg', alt="car")
+              .price $115.000
+            .model 
+              .make KIA 
+              .model-car IMME
+              .one-prire NAVI
+              .two-price LEATHER
+              .thre-price ABS
+            .add
+              | 45/65 
+              i.fa.fa-tachometer(aria-hidden='true')
+              |  Automatic  
+              i.fa.fa-car(aria-hidden='true')
+
+        .row.navigation_down
+          ul
+            li
+              a.in-out(href='#') PREV
+            li
+              a(href='#') 1
+            li
+              a(href='#') 2
+            li
+              a(href='#') 3
+            li
+              a.active(href='#') 4
+            li
+              a(href='#') 5
+            li
+              a.in-out(href='#') NEXT
+script(src="js/line-block-car.js")
+script(src="js/SearchInventory.js")
+

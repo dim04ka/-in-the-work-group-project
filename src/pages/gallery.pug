@@ -1,0 +1,19 @@
+.section
+  .container
+    .row.imageGalleryRow
+      p.imageGallery
+        img#largeImg(src='./img/bmwx6.jpg', alt='Large image')
+        input.left(type='button', name='left', value='<', onclick='left()')
+        input.right(type='button', name='right', value='>', onclick='right()')
+    .row
+      #thumbs
+        a(href='./img/auto1.jpg', title='Image 3')
+          img(src='./img/auto1.jpg', width='100%', height='100%')
+        a(href='./img/auto2.jpg', title='Image 4')
+          img(src='./img/auto2.jpg', width='100%', height='100%')
+        a(href='./img/avtoservice.jpg', title='Image 5')
+          img(src='./img/avtoservice.jpg', width='100%', height='100%')
+        a(href='./img/banner.jpg', title='Image 6')
+          img(src='./img/banner.jpg', width='100%', height='100%')
+script(src="js/gallery.js")
+

@@ -1,0 +1,79 @@
+body .salecar {
+    position: relative;
+    border: 1px solid red;
+    margin: 50px 0; }
+    body .salecar img {
+      width: 100%; }
+    body .salecar::after {
+      content: "1.8 %ApR";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      color: black;
+      font-family: Oswald;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 118.26px;
+      text-transform: uppercase; }
+    body .salecar::before {
+      content: "BMW x6 series 2017 ";
+      color: black;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      font-family: Oswald;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 45.86px;
+      text-transform: uppercase; }
+  body .search-box {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 20px; }
+    body .search-box button[type="submit"] {
+      color: #ffffff;
+      font-family: OpenSans;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+      letter-spacing: 0.42px;
+      background-color: #df3636;
+      width: 100%;
+      height: 50px; }
+    body .search-box button {
+      color: red;
+      background-color: transparent;
+      border: none;
+      margin-top: 20px; }
+    body .search-box select {
+      background-color: #313131;
+      color: #999999;
+      font-family: OpenSans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      width: 100%;
+      height: 40px;
+      padding: 5px 10px;
+      margin-bottom: 15px;
+      border: none; }
+    body .search-box .disc {
+      color: #ffffff;
+      font-family: OpenSans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      padding: 10px 0; }
+    body .search-box .title {
+      color: #ffffff;
+      font-family: OpenSans;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+      text-align: center;
+      padding-bottom: 30px; }

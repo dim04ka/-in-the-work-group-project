@@ -1,0 +1,147 @@
+body .content {
+    color: #1a1919;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; }
+    body .content .navigation_down ul {
+      list-style-type: none;
+      display: flex; }
+    body .content .navigation_down .in-out {
+      color: #919191;
+      font-family: Oswald;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: uppercase;
+      letter-spacing: 11px; }
+    body .content .navigation_down a {
+      text-decoration: none;
+      color: #454545;
+      font-family: Oswald;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24.22px;
+      padding: 0 10px; }
+    body .content .navigation_down .active {
+      color: #df3636; }
+    body .content .col {
+      padding: 0px; }
+    body .content .sort {
+      border-bottom: 1px solid #e9e9e9;
+      padding-bottom: 30px;
+      margin-left: 20px; }
+      body .content .sort__element {
+        color: #1a1919;
+        font-family: Oswald;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase; }
+    body .content .fa-th {
+      color: red;
+      padding: 0 10px; }
+    body .content a {
+      color: black; }
+    body .content select {
+      background-color: #e9e9e9;
+      color: #999999;
+      font-family: OpenSans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      height: 40px;
+      padding: 5px 10px;
+      margin-left: 10px;
+      border: none; }
+    body .content .filter {
+      border-radius: 13px;
+      background-color: #f2f2f2;
+      color: #393939;
+      font-family: Montserrat;
+      font-size: 14px;
+      padding: 0px 10px;
+      margin: 20px; }
+      body .content .filter span {
+        color: #df3636;
+        padding-right: 10px; }
+    body .content .price {
+      background-color: #df3636;
+      color: #ffffff;
+      font-family: OpenSans;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 15px 30px;
+      position: absolute;
+     bottom: 0;
+     height: 46px;
+     width: 100%;
+     border-radius: 0 100% 0 0; }
+    body .content .photo-car {
+      position: relative;
+      border: 1px solid #e9e9e9;
+      width: 100%; }
+      body .content .photo-car img {
+        width: 100%; }
+    body .content .model {
+      color: #1d1d1d;
+      font-family: OpenSans;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 26.4px;
+      text-transform: uppercase;
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-around;
+     }
+      body .content .model *{
+        display: inline;
+      }
+    body .content .add {
+      color: #1d1d1d;
+      font-family:OpenSans;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 26.4px; }
+      body .content .add i {
+        padding: 0 10px; }
+    body .content .car {
+      margin: 10px 0; }
+      .carline {
+        display: flex;
+        .photo-car {
+          width: 35%;
+        }
+      }
+@media(max-width:992px){
+  .section .container.small {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+@media(max-width:768px){
+  .section .search-box form {
+  display: none;
+  }
+  .section .search-box form.open {
+    display: block;
+    }
+  .section .search-box .title {
+    padding: 0;
+    position: relative;
+  }
+  .section .search-box .title:after {
+    content: "▶";
+    display: block;
+    position: absolute;
+    top: -4px;
+    right: 0;
+    font-size: 27px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    width: 10%;
+    padding: 5px;
+  }
+}

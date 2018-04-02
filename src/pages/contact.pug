@@ -1,0 +1,54 @@
+include header
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet" type="text/css" href="styles/style.css")
+        script(src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript")
+        script(src="js/main.js" type="text/javascript")
+        title Contact us
+    body
+        .section
+            .contacts
+                .container.contacts-nav  
+                    .grid.space-between Contact us
+                        ul.grid
+                            li
+                                a(href="#") Home
+                            li
+                                a(href="#") Contact us
+            #map
+                .map-ten.ten
+            .container
+                .contacts-data.grid.space-between
+                    .contacts-data__item
+                        .title  Address
+                        .description    PO Box 16122 Collins  Victoria <br>Street 3000 Australia
+                    .contacts-data__item
+                        .title  Phone
+                        .description    Phone: +033 44233 5546 <br>Fax: +033 42332 3443
+                    .contacts-data__item
+                        .title  Email
+                        .description    Info@moodshop.net<br>design@moodshop.net
+                    .contacts-data__item
+                        .title  Social
+                        .description.contacts-data__icons
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                .contacts-form.grid.space-between
+                    .contacts-form__item
+                        input(type="text" placeholder="Your name")
+                    .contacts-form__item
+                        input(type="text" placeholder="Email")
+                    .contacts-form__item
+                        input(type="text" placeholder="Subject")
+                .contacts-form__item__message
+                    textarea(name="", cols="30", rows="10" placeholder="Message")
+                .button.grid.align-center
+                    input(type="button", value="Send")    
+include footer
+script(src="js/contact_us.js")

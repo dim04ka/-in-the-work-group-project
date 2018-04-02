@@ -1,0 +1,507 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+    src: url(../fonts/OpenSans-Light.ttf);
+    src: url(../fonts/OpenSans-SemiBold.ttf); }
+    @font-face {
+        font-family: Oswald;
+        src: url(../fonts/Oswald-Regular.ttf);
+        src: url(../fonts/Oswald-Light.ttf);
+        src: url(../fonts/Oswald-SemiBold.ttf);
+        src: url(../fonts/Oswald-Medium.ttf); }
+  @font-face {
+    font-family: fontello;
+    src: url(../fonts/fontello.woff), url(../fonts/fontello.woff2); }
+
+   /* * {
+      outline: 1px solid green;
+  }    */
+
+.auto-search{
+    background-color: #000000;
+    color: #ffffff;
+}
+.auto-search__content, .auto-search__form{
+    width:47%;
+
+}
+.auto-search__heading, .auto-search__price{
+    font-family: Oswald;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 91.06px;
+    letter-spacing: 0.42px;
+}
+.auto-search__text{
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+.button_learn-more, .button_search, .button_view-all{
+    width: 153px;
+    height: 50px;
+    background-color: #df3636;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    border: none;
+    margin:2rem 0;
+}
+.button_learn-more:hover, .button_search:hover, .button_view-all:hover { 
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+.button_learn-more:hover, .button_search:hover{
+    box-shadow: 0 0 20px rgba(136, 135, 136, 0.8);
+}
+
+.main-color{
+    color: #df3636;
+}
+
+.homepage__form {
+    height: 447px;
+    background-color: #1b1b1b;
+    flex-wrap: wrap; 
+    text-align: center;   
+    padding:2rem 1rem;
+}
+.form__heading{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.54px;
+}
+.form__select{
+    width: 100%;
+    height: 40px;
+    background-color: #313131;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top:1.5rem;
+    border:none;   font-family: Oswald;
+}
+.form__details{
+    /* font-family: "Open Sans"; */ 
+    font-family: Oswald; 
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    text-align: left;
+}
+.slider-nav_left, .slider-nav_right{
+    width: 75px;
+    height: 75px;
+    background-color: #ffffff;
+    color: #363636;
+    font-size: 25px;
+    font-weight: 900;
+    text-align:center; 
+    line-height: 3;
+}
+.slider-nav_left:hover, .slider-nav_right:hover{
+    box-shadow: 0 0 20px rgba(136, 135, 136, 0.8);
+}
+.form__select:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.9);
+}
+
+
+
+/* OUR CAR */
+.our-car__heading{
+    color: black!important;
+}
+.our-car__new-cars, .our-car__user-car{
+    display:inline-block;
+    color: #646464;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26.4px;
+    margin: 2rem 2rem 2rem 0;
+}
+
+.our-car__catalogue{
+    flex-wrap: wrap;
+    max-width:1140px;
+}
+.our-car__catalogue__item{
+    width:22%;
+    margin-top:2rem;
+    position: relative;
+}
+.catalogue__item_img{
+    width:100%;
+    height: 195px; 
+   
+    background: url(../img/bmwx6.jpg) no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+.catalogue__item_price{
+    height: 46px;
+    width:100%;
+    position: absolute;
+    bottom:36px; left:0px;
+    margin-bottom: 0.7rem;
+}
+.item_price{
+    background-color: #df3636;
+    opacity: 0.5;
+    width:300px;
+
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.4px;
+    padding: 10px 0 0 10px;
+   
+}
+.item_triangle{
+    border: 23px solid transparent;	
+    border-bottom: 23px solid #df3636; opacity: 0.5; 
+    border-left: 23px solid #df3636;opacity: 0.5; 
+}
+.catalogue__item_description{
+    color: #1d1d1d;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+}
+.button_view-all{
+    display:block;
+    margin:2rem auto;
+}
+
+.our-car__catalogue__item:hover .catalogue__item_description{
+    color:#df3636;
+}
+
+/* SPECIALS */
+.specials{
+    background-color: #1a1a1a;
+}
+.specials__slider__item{
+    height: 862px;
+    margin-top:3rem;
+    align-items: flex-end;
+}
+.specials__slider__item_grey{
+   background-color: #292929;
+   display:flex; flex-wrap:wrap; align-content: space-between;
+
+}
+.specials__slider__item_black{
+    background-color: #111111; 
+}
+.slider__item__description {
+    padding: 2rem;
+}
+.slider__item__description_bigfont{
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 80.81px;
+    letter-spacing: 0.42px;
+}
+.slider__item__description_mediumfont{
+    font-family: Oswald;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 53.67px;
+    color: #ffffff;
+    letter-spacing: 0.42px;
+}
+.yellow-color{
+    color: #fae44d;
+}
+.slider__item__details{
+    max-width: 425px; 
+    height: 164px;
+    background-color: #df3636;
+    margin-bottom: 2rem;
+
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 47px;
+    font-weight: 700;
+}
+.slider__item__details_percent{
+    font-size: 114px;
+    padding: 0 2.5rem;
+}
+
+.specials__slider__item:hover{
+    box-shadow: 0 0 25px rgba(0,0,0,0.8);
+}
+// SLIDER
+.specials__slider_nav{
+    margin: 2rem auto;
+    width:200px; 
+}
+.specials__slider_prev, .specials__slider_next{
+    width:20px; height: 20px;
+    font-size:26px;
+    font-weight: 900;
+    color: #727171;
+    line-height:0.8;
+}
+.specials__slider__indicator{
+    width:20px; height: 20px;
+    border:1px solid #727171;
+}
+.specials__slider__indicator:hover{
+    box-shadow: 0 0 10px rgba(97, 96, 96, 0.741);
+}
+.specials__slider_prev:hover, .specials__slider_next:hover{
+    text-shadow: 1px 1px 1px #807f7f;
+}
+
+/* buy-sell */
+.buy-sell-car__item{
+    width:49%;
+    color: #ffffff;
+    font-family: Oswald;
+    padding: 4rem 2rem;
+}
+.buy-sell-car__img{
+    background: url(../img/car.png) no-repeat;
+    /* background-size:cover; */
+    background-position: center;
+    width: 120px;
+    height: 70px;
+}
+.buy-car{
+    background-color: #df3636;
+}
+.sell-car{
+    background-color: #1a1a1a;
+}
+.buy-sell-car__icon{
+    font-size: 2rem;
+    text-align: center;
+    height: 50px;
+    line-height: 1.5;
+}
+.buy-sell-car__heading{
+    font-size: 22px;
+    margin-bottom:2rem;
+}
+.buy-sell-car__text{
+    font-size: 14px;
+    line-height: 26.4px;
+}
+
+.buy-sell-car__item:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/* WHY CHOOSE US */
+.why-choose-us{
+    padding: 4rem 1rem;
+    background-color: #1b1b1b;
+    color: #fefefe;
+}
+.why-choose-us__heading, .our-car__heading, .specials__heading, .our-team__heading{
+    TEXT-ALIGN:CENTER;
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom:1.2rem;
+}
+.why-choose-us__subheading, .our-car__subheading, .specials__subheading, .our-team__subheading{
+    TEXT-ALIGN:CENTER;
+    color: #a4a2a2;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7.2px;
+}
+.why-choose-us__item{
+    margin: 2rem 1rem;
+    text-align:center;
+}
+.why-us__item__icon{
+    width: 124px;
+    height: 124px;
+    margin:0 auto;
+}
+.why-us__item__heading{
+    margin:1rem 0;
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.why-us__item__text{
+    color: #c0c0c0;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.7px;
+}
+.item-finances .why-us__item__icon{
+    background: url(../img/finances.png) no-repeat;
+    background-size:contain;
+    background-position: center; 
+} 
+.item-brands .why-us__item__icon{
+    background: url(../img/brands.svg) center no-repeat; 
+} 
+.item-trust .why-us__item__icon{
+    background: url(../img/trust.svg) center no-repeat; 
+} 
+.item-service .why-us__item__icon{
+    background: url(../img/services.svg) center no-repeat; 
+} 
+.hr_grey {
+    display: inline-block;
+    width:17%;
+    font-weight: 100;
+}
+.hr_red{
+    width:3%;
+    display: inline-block;  
+}
+.why-choose-us__item:hover .why-us__item__heading{
+    color: #df3636;
+}
+
+
+/* ABOUT US */
+.our-team__heading{
+    color:black;
+}
+.team-member{
+    /* width:33%; */
+    width:370px;
+    text-align: center;
+    margin-top:3rem;
+    font-family: Oswald;
+    position: relative;
+}
+
+.team-member__photo{
+    width: 230px;
+    height: 230px;
+    background: url(../img/team-member-vorobej.jpg) center no-repeat;
+    border-radius:115px;
+    margin: 0 auto;
+}
+.team-member__name{
+    margin: 0.5rem 0;
+    font-size: 18px;
+}
+.team-member__socials{
+    font-family: fontello;
+    position: absolute;
+    padding-right: 10px;  display:none;
+}
+.socials_fb{
+    top: 50px;
+    left: 55px;
+}
+.socials_g{
+    top: 97px;
+    left: 33px;
+}
+.socials_tw{
+    top: 143px;
+    left: 38px;
+}
+.socials_inst{
+    top: 188px;
+    left: 50px;
+}
+
+.team-member:hover .team-member__socials{
+    display: block;
+}
+.team-member:hover .team-member__photo{
+    border: 2px solid #aa2a2a;
+    box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+.team-member__socials:hover{
+    color: #df3636;
+}
+
+
+@media(max-width:1240px){
+    .specials__slider{
+        flex-wrap: wrap;
+    }
+    .specials__slider__item{
+       width:50%;
+       height: 600px;
+    }
+}
+ @media(max-width:1050px){
+    .our-team__members{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team-member{
+        display:block!important;
+    }
+} 
+@media(max-width:940px){
+    .container-auto-search{
+        flex-wrap: wrap;
+    }
+    .specials__slider__item{
+       width:100%;
+    }
+}
+
+@media(max-width:840px){
+    .our-car__catalogue{
+       flex-wrap: wrap;
+    }
+    .our-car__catalogue__item{
+        width:30%;
+    }
+}
+
+
+@media(max-width:800px){
+    .why-choose-us__content{
+        flex-wrap:wrap;
+    }
+    .buy-sell-container{
+        flex-wrap: wrap;
+        justify-content: center!important;
+    }
+    .buy-sell-car__item{
+        width:90%;
+    }
+}
+
+@media(max-width:690px){
+    .our-car__catalogue__item{
+        width:48%;
+    }
+}
+
+@media(max-width:460px){
+    .hr_red, .hr_grey{
+        display:none;
+    }
+    .our-car__catalogue__item{
+        width:98%;
+    }
+}

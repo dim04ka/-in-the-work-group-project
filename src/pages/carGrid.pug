@@ -1,0 +1,124 @@
+.section
+  .container.small
+    .row.align-items-start
+      .col-3
+        .search-box.serch
+          .title Search inventory
+          form(action='#', method='post')
+            .disc Condition
+            select
+              option new
+            .disc Body
+            select
+              option Compact
+            .disc Make
+            select
+              option BMW
+            .disc Model
+            select
+              option x6
+            .disc Max Mileage
+            select
+              option new
+            .disc Year
+            select
+              option 2016
+            .disc Transmission
+            select
+              option Automatic
+            .disc Color
+            select
+              option All color
+            button(type='submit') SEARCH
+            button(type='reset')
+              i.fa.fa-refresh(aria-hidden='true')
+              |   Reset all
+            p
+        .salecar
+          img(src='image/kia.jpg', width='270px', height='334px')
+    .col-9.content
+      .row.sort
+        .col.sort__element
+          | SORT BY
+          select
+            option Date: Newest first
+        .icons
+          a(href='#')
+            i.fa.fa-th-list
+          a(href='#')
+            i.fa.fa-th
+          // /.icons
+          // /.col sort
+      .row.filtes
+        .filter
+          | Pricice
+          span $2000 - $65.765
+          a(href='#')
+            img(src='image/X.png')
+          // /.filter-one
+        // /.row filter
+        // /.row
+      .row.block-car
+        .col-4.car
+          .photo-car
+            img(src='image/kia.jpg', width='270px', height='150px')
+            // /.photo-car
+          .price $45.000
+            // /.price
+          .model BMW 535I, NAVI, LEATHER, ABS
+            // /.model
+          .add
+            | 45/65 
+            i.fa.fa-tachometer(aria-hidden='true')
+            |  Automatic  
+            i.fa.fa-car(aria-hidden='true')
+            // /.add
+          // /.col car
+        .col-4.car
+          .photo-car
+            img(src='image/kia.jpg', width='270px', height='150px')
+            // /.photo-car
+          .price $45.000
+            // /.price
+          .model BMW 535I, NAVI, LEATHER, ABS
+            // /.model
+          .add
+            | 45/65 
+            i.fa.fa-tachometer(aria-hidden='true')
+            |  Automatic  
+            i.fa.fa-car(aria-hidden='true')
+            // /.add
+          // /.col car
+        .col-4.car
+          .photo-car
+            img(src='image/kia.jpg', width='270px', height='150px')
+            // /.photo-car
+          .price $45.000
+            // /.price
+          .model BMW 535I, NAVI, LEATHER, ABS
+            // /.model
+          .add
+            | 45/65 
+            i.fa.fa-tachometer(aria-hidden='true')
+            |  Automatic  
+            i.fa.fa-car(aria-hidden='true')
+            // /.add
+          // /.col car
+        // /.row block-car
+      .row.navigation_down
+        ul
+          li
+            a.in-out(href='#') PREV
+          li
+            a(href='#') 1
+          li
+            a(href='#') 2
+          li
+            a(href='#') 3
+          li
+            a.active(href='#') 4
+          li
+            a(href='#') 5
+          li
+            a.in-out(href='#') NEXT
+

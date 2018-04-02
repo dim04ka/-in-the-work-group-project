@@ -1,0 +1,38 @@
+.section
+  .container
+    .row.align-items-start
+      .col-3
+        .search-box.serch
+          .title Search inventory
+          form(action='#', method='post')
+            .disc Condition
+            select
+              option new
+            .disc Body
+            select
+              option Compact
+            .disc Make
+            select
+              option BMW
+            .disc Model
+            select
+              option x6
+            .disc Max Mileage
+            select
+              option new
+            .disc Year
+            select
+              option 2016
+            .disc Transmission
+            select
+              option Automatic
+            .disc Color
+            select
+              option All color
+            button(type='submit') SEARCH
+            button(type='reset')
+              i.fa.fa-refresh(aria-hidden='true')
+              |   Reset all
+            p
+        .salecar
+          img(src='image/kia.jpg', width='270px', height='334px')
